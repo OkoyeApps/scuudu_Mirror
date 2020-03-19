@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import Logo from '../../assets/images/ScuuduLogo.svg'
+import LogoWhite from '../../assets/images/Scuudu-Logo-W.svg'
 import facebook from '../../assets/images/facebook.svg'
 import insta from '../../assets/images/insta-logo.svg'
 import youtube from '../../assets/images/youtube.svg'
@@ -10,7 +10,7 @@ function Footer() {
         <div>
             <footer class="pt-5 px-5">
                 <div class="logo">
-                    <img src={Logo} />
+                    <img src={LogoWhite} />
                 </div>
 
                 <div class="footer-content">

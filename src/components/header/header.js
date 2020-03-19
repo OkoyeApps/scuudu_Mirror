@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Logo from '../../assets/images/ScuuduLogo.svg'
+import Logo from '../../assets/images/scuudu-logo.svg'
 import './header.css'
 import { withRouter } from 'react-router-dom'
 function Header(props) {
@@ -21,19 +21,19 @@ function Header(props) {
                     <img src={Logo} alt="scuudu-logo" />
                 </div>
                 <div>
-                    <span class={`dropper ${currentLink === "/" ? "colored-red" : ""}`} onClick={() => { handleLink('/') }}>World of Scuudu
-                <div class="dropping">
+                    <span class={`dropper`}> World of Scuudu
+                        {/* <div class="dropping">
                             <ul>
                                 <li>Our Company</li>
                                 <li>The Team</li>
                                 <li>News</li>
                                 <li>Career</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </span>
 
                     <span class="dropper">Services
-                <div class="dropping">
+                {/* <div class="dropping">
                             <ul>
                                 <li>Virtual Reality (VR)</li>
                                 <li>Visual Effects (VFX)</li>
@@ -41,27 +41,27 @@ function Header(props) {
                                 <li>Artificial Intelligence (AI)</li>
                                 <li>Augumented Reality (AR)</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </span>
                     <span class="dropper">Products
-                <div class="dropping">
+                {/* <div class="dropping">
                             <ul>
                                 <li>Our Company</li>
                                 <li>The Team</li>
                                 <li>News</li>
                                 <li>Career</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </span>
                     <span class="dropper">Support
-                <div class="dropping">
+                {/* <div class="dropping">
                             <ul>
                                 <li>Our Company</li>
                                 <li>The Team</li>
                                 <li>News</li>
                                 <li>Career</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </span>
                     <span class={`dropper ${currentLink === "/store" ? "colored-red" : ""}`} onClick={() => { handleLink('/store') }}>Store
                 {/* <div class="dropping">
@@ -73,10 +73,13 @@ function Header(props) {
                             </ul>
                         </div> */}
                     </span>
+                    <span >
+                        <button className="px-4">Subscribe</button>
+                    </span>
                 </div>
-                <div>
-                    <button>Subscribe</button>
-                </div>
+                {/* <div>
+                    
+                </div> */}
             </nav>
         </div>
     )

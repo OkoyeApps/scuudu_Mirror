@@ -81,6 +81,7 @@
 
 .video-description {
   width: 85%;
+  height: 10vh;
   border-left: 1px solid #ff3232;
 }
 
@@ -115,4 +116,56 @@
   border-radius: 4px;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+}
+
+.about-home {
+  min-height: 88vh;
+}
+
+.pr-6 {
+  padding-right: 5rem !important;
+}
+
+.pl-6 {
+  padding-left: 5rem !important;
+}
+
+.px-6 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
+.more-txt {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 182.5%;
+  color: #ff3232;
+}
+
+.slides {
+  background-image: url("../../assets/images/homepage-bg.png");
+  min-height: 88vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.latest {
+  min-height: 88vh;
+}
+
+.sub-strip {
+  min-height: 30vh;
+  background: #131212;
+}
+
+.sub-text-strip {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c1c1;
 }
