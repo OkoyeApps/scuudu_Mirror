@@ -1,0 +1,44 @@
+.footer-content {
+  /* font-family: Comfortaa !important; */
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+.footer-titles {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.3rem;
+}
+
+.scuudu-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 182.5%;
+  color: #ffffff;
+}
+
+.lang-dropdown {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: white;
+  background-color: transparent;
+}
+
+.copy-right {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 182.5%;
+  color: #ffffff;
+  padding-top: 4rem;
+}

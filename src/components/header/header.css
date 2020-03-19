@@ -1,0 +1,87 @@
+.scuudu-nav {
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+  padding: 0.5rem;
+  background-color: black;
+  color: #ffffff;
+}
+
+.scuudu-nav span {
+  display: inline-block;
+  padding: 0.5rem 2rem !important;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 70px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.scuudu-nav button {
+  font-family: Comfortaa !important;
+  color: #ff3232;
+  border: 1px solid #ff3232;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+.scuudu-nav button:focus {
+  outline: none;
+}
+.scuudu-nav button:active {
+  background-color: #ff3232;
+  color: white;
+}
+
+.dropping {
+  display: none;
+  position: absolute;
+  background-color: #131212;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: white !important;
+  list-style: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.dropping ul {
+  list-style: none;
+  padding: 0;
+  padding: 0.4rem 1rem;
+}
+.dropping li {
+  padding: 0.5rem 0rem;
+}
+
+.dropping li:last-child {
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+}
+
+.dropping li:hover {
+  color: #ff3232;
+}
+.dropper:hover {
+  color: #ff3232;
+}
+
+.dropper:hover .dropping {
+  display: block;
+}
+
+.colored-red {
+  color: #ff3232;
+}
