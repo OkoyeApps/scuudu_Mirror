@@ -19,6 +19,10 @@
   margin-top: 1.3rem;
 }
 
+.footer-list li {
+  margin-bottom: 0.5rem;
+}
+
 .scuudu-address {
   font-style: normal;
   font-weight: normal;
@@ -32,6 +36,7 @@
   border-radius: 4px;
   color: white;
   background-color: transparent;
+  width: 70%;
 }
 
 .copy-right {
@@ -41,4 +46,32 @@
   line-height: 182.5%;
   color: #ffffff;
   padding-top: 4rem;
+}
+
+.footer-listings {
+  border-bottom: 1px solid #3e3e3e;
+}
+
+.mx-6 {
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+}
+
+.mr-6 {
+  margin-right: 5rem !important;
+}
+
+.ml-6 {
+  margin-left: 5rem !important;
+}
+
+.terms-policy {
+  padding-bottom: 6rem;
+}
+
+.go-up {
+  position: relative;
+  bottom: 30%;
+  left: 95%;
+  cursor: pointer;
 }

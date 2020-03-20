@@ -1,28 +1,32 @@
 import React, { useState, useEffect } from 'react'
-import Logo from '../../assets/images/scuudu-logo.svg'
+import Logo from '../../assets/images/scuduu-logo-r.png'
+import LogoWhite from '../../assets/images/scuduu-logo-w.png'
 import './header.css'
 import { withRouter } from 'react-router-dom'
 function Header(props) {
-    var [currentLink, setCurrentLink] = useState("world")
+    // var [currentLink, setCurrentLink] = useState("world")
 
     const handleLink = (link) => {
-        setCurrentLink(link)
+        // setCurrentLink(link)
         props.history.push({ pathname: link })
     }
 
 
     useEffect(() => {
-        setCurrentLink(props.location.pathname)
+        // setCurrentLink(props.location.pathname)
     }, [])
     return (
         <div>
             <nav class="scuudu-nav px-3">
-                <div class="logo" id="scuudu-logo">
-                    <img src={Logo} alt="scuudu-logo" />
+                <div class="logo mt-2" id="scuudu-logo">
+                    <img src={props.location.pathname === '/' ? Logo : LogoWhite} alt="scuudu-logo" onClick={() => handleLink('/')} />
+                </div>
+                <div style={{ display: "none" }}>
+                    <span className="fa fa-bars" style={{ color: "#ff3232" }}></span>
                 </div>
                 <div>
-                    <span class={`dropper`}> World of Scuudu
-                        {/* <div class="dropping">
+                    <span class={`dropper ${props.location.pathname === '/product' ? 'colored-red' : ""}`} onClick={() => { handleLink('/product') }}>Products
+                {/* <div class="dropping">
                             <ul>
                                 <li>Our Company</li>
                                 <li>The Team</li>
@@ -32,7 +36,7 @@ function Header(props) {
                         </div> */}
                     </span>
 
-                    <span class="dropper">Services
+                    <span class={`dropper ${props.location.pathname === '/services' ? 'colored-red' : ""}`} onClick={() => { handleLink('/services') }}>Services
                 {/* <div class="dropping">
                             <ul>
                                 <li>Virtual Reality (VR)</li>
@@ -43,16 +47,19 @@ function Header(props) {
                             </ul>
                         </div> */}
                     </span>
-                    <span class="dropper">Products
+
+                    <span class={`dropper ${props.location.pathname === '/aboutus' ? 'colored-red' : ""}`} onClick={() => { handleLink('/aboutus') }}>About Us
                 {/* <div class="dropping">
                             <ul>
-                                <li>Our Company</li>
-                                <li>The Team</li>
-                                <li>News</li>
-                                <li>Career</li>
+                                <li>Virtual Reality (VR)</li>
+                                <li>Visual Effects (VFX)</li>
+                                <li>Embedded Systems (ES)</li>
+                                <li>Artificial Intelligence (AI)</li>
+                                <li>Augumented Reality (AR)</li>
                             </ul>
                         </div> */}
                     </span>
+
                     <span class="dropper">Support
                 {/* <div class="dropping">
                             <ul>
@@ -63,7 +70,7 @@ function Header(props) {
                             </ul>
                         </div> */}
                     </span>
-                    <span class={`dropper ${currentLink === "/store" ? "colored-red" : ""}`} onClick={() => { handleLink('/store') }}>Store
+                    <span class={`dropper `} onClick={() => { handleLink('/') }}>Store
                 {/* <div class="dropping">
                             <ul>
                                 <li>Our Company</li>

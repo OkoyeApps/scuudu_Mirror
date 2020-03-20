@@ -81,7 +81,7 @@
 
 .video-description {
   width: 85%;
-  height: 10vh;
+  /* height: 10vh; */
   border-left: 1px solid #ff3232;
 }
 
