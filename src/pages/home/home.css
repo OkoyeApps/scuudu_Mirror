@@ -1,0 +1,171 @@
+.first-section {
+  background-image: url("../../assets/images/first-bg.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 86vh;
+  width: 100%;
+}
+
+.titles {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 90%;
+  color: #ffffff;
+}
+
+.content-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 182.5%;
+  color: #ffffff;
+}
+
+.social-medias {
+  padding-top: 15rem;
+}
+
+.second-section {
+  background-image: url("../../assets/images/second-bg.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 86vh;
+  width: 100%;
+}
+
+.who-we-are {
+  width: 80%;
+}
+
+.small-titles {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 90%;
+  color: #ffffff;
+}
+
+.small-indicator {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ff3232;
+}
+
+.third-section {
+  height: 86vh;
+}
+
+.video-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.video-thumb {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.video-container {
+  width: 85%;
+}
+
+.video-description {
+  width: 85%;
+  height: 10vh;
+  border-left: 1px solid #ff3232;
+}
+
+.play-btn {
+  position: absolute;
+  top: 28%;
+  left: 40%;
+}
+
+.fourth-section {
+  height: 86vh;
+  background-color: #131212;
+}
+
+.subscriber-email {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid #c4c1c1;
+  color: white;
+}
+
+.subscriber-email::placeholder {
+  color: #c4c1c1;
+}
+
+.sub-btn {
+  color: white;
+  background-color: #ff3232;
+  border: none;
+  font-size: 16px;
+  line-height: 182.5%;
+  border-radius: 4px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.about-home {
+  min-height: 88vh;
+}
+
+.pr-6 {
+  padding-right: 5rem !important;
+}
+
+.pl-6 {
+  padding-left: 5rem !important;
+}
+
+.px-6 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
+.more-txt {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 182.5%;
+  color: #ff3232;
+}
+
+.slides {
+  background-image: url("../../assets/images/homepage-bg.png");
+  min-height: 88vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.latest {
+  min-height: 88vh;
+}
+
+.sub-strip {
+  min-height: 30vh;
+  background: #131212;
+}
+
+.sub-text-strip {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c1c1;
+}
