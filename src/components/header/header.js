@@ -27,7 +27,7 @@ function Header(props) {
                     <img src={props.location.pathname === '/' ? Logo : LogoWhite} alt="scuudu-logo" onClick={() => handleLink('/')} />
                 </div>
                 <div className="three-bars">
-                    <span className={`fa ${dropNav ? 'fa-times' : 'fa-bars'}`} style={{ color: "#ff3232" }} onClick={() => { setNavDrop(!dropNav) }}></span>
+                    <span className={`fa ${dropNav ? 'fa-times' : 'fa-bars'}`} style={{ color: dropNav ? "#ff3232" : "#ffffff" }} onClick={() => { setNavDrop(!dropNav) }}></span>
                 </div>
                 <div className="big-nav">
                     <span class={`dropper ${props.location.pathname === '/product' ? 'colored-red' : ""}`} onClick={() => { handleLink('/product') }}>Products
