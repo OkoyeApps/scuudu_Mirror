@@ -5,10 +5,15 @@ import './header.css'
 import { withRouter } from 'react-router-dom'
 function Header(props) {
     // var [currentLink, setCurrentLink] = useState("world")
+    var [dropNav, setNavDrop] = useState(false)
 
     const handleLink = (link) => {
-        // setCurrentLink(link)
         props.history.push({ pathname: link })
+        openNav()
+    }
+
+    const openNav = () => {
+        setNavDrop(false)
     }
 
 
@@ -21,10 +26,10 @@ function Header(props) {
                 <div class="logo mt-2" id="scuudu-logo">
                     <img src={props.location.pathname === '/' ? Logo : LogoWhite} alt="scuudu-logo" onClick={() => handleLink('/')} />
                 </div>
-                <div style={{ display: "none" }}>
-                    <span className="fa fa-bars" style={{ color: "#ff3232" }}></span>
+                <div className="three-bars">
+                    <span className={`fa ${dropNav ? 'fa-times' : 'fa-bars'}`} style={{ color: "#ff3232" }} onClick={() => { setNavDrop(!dropNav) }}></span>
                 </div>
-                <div>
+                <div className="big-nav">
                     <span class={`dropper ${props.location.pathname === '/product' ? 'colored-red' : ""}`} onClick={() => { handleLink('/product') }}>Products
                 {/* <div class="dropping">
                             <ul>
@@ -87,6 +92,19 @@ function Header(props) {
                 {/* <div>
                     
                 </div> */}
+            </nav>
+            <nav className="text-center nav-drop" style={{ display: dropNav ? 'block' : 'none' }}>
+                <div className={`py-2 ${props.location.pathname === '/product' ? 'colored-red' : ""}`} onClick={() => { handleLink('/product') }}>Products</div>
+
+                <div className={`dropper py-2 ${props.location.pathname === '/services' ? 'colored-red' : ""}`} onClick={() => { handleLink('/services') }}>Services</div>
+
+                <div className={`dropper py-2 ${props.location.pathname === '/aboutus' ? 'colored-red' : ""}`} onClick={() => { handleLink('/aboutus') }}>About Us</div>
+
+                <div class="dropper py-2">Support</div>
+
+                <div className="py-2">
+                    <button className="px-4 small-sub-btn">Subscribe</button>
+                </div>
             </nav>
         </div>
     )

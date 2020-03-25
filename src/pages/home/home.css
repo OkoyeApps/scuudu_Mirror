@@ -149,6 +149,7 @@
   min-height: 88vh;
   width: 100%;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -168,4 +169,59 @@
   font-size: 14px;
   line-height: 16px;
   color: #c4c1c1;
+}
+
+.justify-titles {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .big-nav {
+    display: none;
+  }
+  .justify-titles {
+    justify-content: left;
+  }
+
+  .pr-6 {
+    padding-right: 0 !important;
+  }
+
+  .px-6 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .about-home {
+    padding-top: 3rem;
+  }
+  .latest {
+    padding-top: 3rem !important;
+  }
+
+  .play-btn {
+    position: absolute;
+    top: 12%;
+    left: 37%;
+  }
+  .video-title {
+    font-size: 20px;
+  }
+  .more-txt {
+    font-size: 12px;
+  }
+  .titles {
+    font-size: 50px;
+  }
+  .small-titles {
+    font-size: 40px;
+  }
+
+  .content-text {
+    font-size: 14px;
+  }
+
+  .sub-title-home {
+    font-size: 14px;
+  }
 }

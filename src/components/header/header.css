@@ -85,3 +85,58 @@
 .colored-red {
   color: #ff3232;
 }
+
+.three-bars {
+  display: none;
+}
+
+.big-nav {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .three-bars {
+    display: block;
+    font-size: 26px;
+  }
+
+  .big-nav {
+    display: none;
+  }
+
+  .scuudu-nav {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ffffff;
+  }
+
+  .nav-drop {
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    background-color: #1d1d1d;
+    padding: 1.5rem 1rem;
+  }
+
+  .small-sub-btn {
+    font-family: Comfortaa !important;
+    color: #ff3232;
+    border: 1px solid #ff3232;
+    border-radius: 4px;
+    background-color: transparent;
+    /* width: 20vw; */
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    cursor: pointer;
+  }
+
+  .small-sub-btn:active {
+    background-color: #ff3232;
+    color: white;
+  }
+  .small-sub-btn:focus {
+    outline: none;
+  }
+}
