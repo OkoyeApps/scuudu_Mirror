@@ -59,3 +59,42 @@ div.main-services-content {
   border-radius: 2px;
   border: none;
 }
+.space-h {
+  height: 230vh;
+}
+.service-header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 768px) {
+  .service-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 24px;
+  }
+  .space-h {
+    height: 265vh;
+  }
+
+  .service-txt {
+    font-size: 13px;
+  }
+
+  .service-titles {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-services-content {
+    position: static !important;
+    margin-top: 2rem;
+  }
+  .space-h {
+    height: 5vh;
+  }
+
+  .our-services {
+    background-image: none;
+  }
+}

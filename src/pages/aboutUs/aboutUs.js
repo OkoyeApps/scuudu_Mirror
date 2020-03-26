@@ -19,13 +19,13 @@ function AboutUs() {
                     <h2 className="titles">Innovation For<br />
                     A better<br />Tomorrow.</h2>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 empty-div">
 
                 </div>
             </section>
 
-            <section className="who px-6 pt-4">
-                <h3 className="text-center py-5 product-sm-title">Who We Are</h3>
+            <section className="who pt-4">
+                <h3 className="text-center product-sm-title">Who We Are</h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque..</p>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque..
@@ -42,7 +42,7 @@ function AboutUs() {
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Franky} alt="team member" />
+                                <img src={Franky} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Franklin Osondu</h4>
                             <h5 className="team-role">Lead, Research & Development</h5>
@@ -55,7 +55,7 @@ function AboutUs() {
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Kosisy} alt="team member" />
+                                <img src={Kosisy} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Kaosicho Dim</h4>
                             <h5 className="team-role">Visual Designer</h5>
@@ -68,7 +68,7 @@ function AboutUs() {
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Emeka} alt="team member" />
+                                <img src={Emeka} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Emeka Onyebuchi</h4>
                             <h5 className="team-role">AI Expert / Engineer</h5>
@@ -82,7 +82,7 @@ function AboutUs() {
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Chinedu} alt="team member" />
+                                <img src={Chinedu} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Emeka Onyebuchi</h4>
                             <h5 className="team-role">AI Expert / Engineer</h5>
@@ -96,7 +96,7 @@ function AboutUs() {
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Kosisy} alt="team member" />
+                                <img src={Kosisy} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Emeka Onyebuchi</h4>
                             <h5 className="team-role">AI Expert / Engineer</h5>
@@ -110,7 +110,7 @@ function AboutUs() {
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Tony} alt="team member" />
+                                <img src={Tony} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Emeka Onyebuchi</h4>
                             <h5 className="team-role">AI Expert / Engineer</h5>

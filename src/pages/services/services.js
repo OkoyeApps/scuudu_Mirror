@@ -18,7 +18,7 @@ function Services() {
             <div className="our-services">
                 <div className="d-flex justify-content-center">
                     <div className="main-services-content">
-                        <h3 className="my-5">Our Services</h3>
+                        <h3 className="service-header">Our Services</h3>
                         <section className="row mx-0">
                             <div className="col-md-6 mb-4">
                                 <div className="d-flex align-items-center pl-3"
@@ -126,7 +126,7 @@ function Services() {
 
             </div>
 
-            <section style={{ height: "230vh" }}></section>
+            <section className="space-h"></section>
             <Subscribe />
 
         </div>

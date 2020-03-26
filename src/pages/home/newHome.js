@@ -10,7 +10,7 @@ function NewHome() {
     return (
         <div>
             <section className="row mx-0 slides">
-                <div className="col-md-6 col-sm-1">
+                <div className="col-md-6 col-sm-1 empty-div">
 
                 </div>
                 <div className="col-md-6 d-flex justify-titles align-items-center">

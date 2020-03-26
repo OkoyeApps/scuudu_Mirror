@@ -58,3 +58,50 @@
 .hero-wallpaper {
   width: 100%;
 }
+
+.store-logo {
+  margin-top: 3rem;
+}
+.w-img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .play-btn-lg {
+    position: absolute;
+    top: 27%;
+    left: 47%;
+  }
+
+  .product-sm-title {
+    font-size: 20px;
+  }
+
+  .product-title {
+    font-size: 30px;
+  }
+
+  .product-txt {
+    font-size: 14px;
+  }
+
+  .store-logo {
+    margin-top: 0.5rem;
+  }
+
+  .wyrewolf {
+    padding-top: 2rem;
+  }
+
+  .estateAR {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .play-btn-lg {
+    position: absolute;
+    top: 20%;
+    left: 46%;
+  }
+}

@@ -225,3 +225,29 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 425px) {
+  .sub-strip {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .sub-text-strip {
+    padding-right: 1rem;
+  }
+
+  .sub-btn {
+    margin-top: 1.5rem;
+  }
+
+  .play-btn {
+    position: absolute;
+    top: 16%;
+    left: 38%;
+  }
+}
+
+@media (max-width: 411px) {
+  .play-btn {
+    display: none;
+  }
+}

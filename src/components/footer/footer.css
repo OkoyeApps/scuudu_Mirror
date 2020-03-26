@@ -83,9 +83,10 @@
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.small-footer {
-  display: none;
+.sm-footer {
+  display: none !important;
 }
+
 @media (max-width: 768px) {
   .mx-6 {
     margin-right: 0 !important;
@@ -114,8 +115,8 @@
   .big-footer {
     display: none !important;
   }
-  .small-footer {
-    display: block;
+  .sm-footer {
+    display: block !important;
   }
 
   .sm-copy {
@@ -123,5 +124,31 @@
   }
   .sm-copy p {
     margin-bottom: 4px !important;
+  }
+
+  .footer-pullup {
+    cursor: pointer;
+  }
+
+  .footer-pullup:active {
+    color: #ff3232;
+  }
+
+  .float-in {
+    position: absolute;
+    background-color: #131212;
+    padding: 1.2rem 1rem;
+    left: 40%;
+  }
+
+  .footer-list {
+    font-size: 13px;
+  }
+  .terms-footer {
+    font-size: 13px !important;
+  }
+
+  .border-lined {
+    border-bottom: 1px solid #3e3e3e;
   }
 }

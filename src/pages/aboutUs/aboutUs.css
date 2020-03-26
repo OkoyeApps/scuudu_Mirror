@@ -7,6 +7,16 @@
   background-size: cover;
 }
 
+.who {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.who h3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .who p {
   font-family: Comfortaa;
   font-style: normal;
@@ -37,4 +47,43 @@
   text-align: center;
   color: #ffffff;
   margin-top: 0.7rem;
+}
+
+.team-member-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 425px) {
+  .empty-div {
+    display: none !important;
+  }
+  .who {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .who p {
+    font-size: 13px;
+  }
+  .who h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .team-mate-name {
+    font-size: 19px;
+  }
+
+  .team-role {
+    font-size: 13px;
+  }
+
+  .team-member-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
 }
