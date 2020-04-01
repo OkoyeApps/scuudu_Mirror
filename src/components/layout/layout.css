@@ -9,3 +9,9 @@
   top: 45%;
   left: 4%;
 }
+
+@media (max-width: 768px) {
+  .scroll {
+    display: none;
+  }
+}

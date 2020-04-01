@@ -1,0 +1,107 @@
+.play-btn-lg {
+  position: absolute;
+  top: 35%;
+  left: 48%;
+}
+
+.product-sm-title {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.product-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.product-txt {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.eri {
+  min-height: 85vh;
+}
+
+.feature-img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.wyrewolf {
+  background-color: #131212;
+  min-height: 85vh;
+}
+
+.estateAR {
+  min-height: 85vh;
+}
+
+.hero-wallpaper {
+  width: 100%;
+}
+
+.store-logo {
+  margin-top: 3rem;
+}
+.w-img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .play-btn-lg {
+    position: absolute;
+    top: 27%;
+    left: 47%;
+  }
+
+  .product-sm-title {
+    font-size: 20px;
+  }
+
+  .product-title {
+    font-size: 30px;
+  }
+
+  .product-txt {
+    font-size: 14px;
+  }
+
+  .store-logo {
+    margin-top: 0.5rem;
+  }
+
+  .wyrewolf {
+    padding-top: 2rem;
+  }
+
+  .estateAR {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .play-btn-lg {
+    position: absolute;
+    top: 20%;
+    left: 46%;
+  }
+}

@@ -2,9 +2,9 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Layout from './components/layout/layout'
 import Home from './pages/home/newHome'
-import Store from './pages/scuudu-store/scuudu-store'
-import ScuuduVideos from './pages/scuuduVideo/scuuduVideo'
-
+import Product from './pages/product/product'
+import AboutUs from './pages/aboutUs/aboutUs'
+import Services from './pages/services/services'
 
 const CustomRoute = ({ Component, path, exact, ...rest }) => {
     return <Route exact={exact} path={path} render={props => {
@@ -17,8 +17,9 @@ function AppRouter() {
         <Router>
             <Switch>
                 <CustomRoute path="/" Component={Home} exact />
-                <CustomRoute path="/store" Component={Store} exact />
-                <CustomRoute path="/videos" Component={ScuuduVideos} exact />
+                <CustomRoute path="/product" Component={Product} exact />
+                <CustomRoute path="/aboutus" Component={AboutUs} exact />
+                <CustomRoute path="/services" Component={Services} exact />
             </Switch>
         </Router>
     )

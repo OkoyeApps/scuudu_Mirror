@@ -4,18 +4,19 @@ import redDash from '../../assets/images/red-dash.svg'
 import arrowLeft from '../../assets/images/arrow1.svg'
 import videoThumb from '../../assets/images/video-thumbnail.png'
 import playBtn from '../../assets/images/play-btn.svg'
+import Subscribe from '../../components/subcribeStrip/subscribeStrip'
 
 function NewHome() {
     return (
         <div>
             <section className="row mx-0 slides">
-                <div className="col-6">
+                <div className="col-md-6 col-sm-1 empty-div">
 
                 </div>
-                <div className="col-6 d-flex justify-content-center align-items-center">
+                <div className="col-md-6 d-flex justify-titles align-items-center">
                     <div className="pr-6">
                         <h1 className="titles">Virtual Reality Experience</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis am</p>
+                        <p className="sub-title-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis am</p>
                     </div>
                 </div>
             </section>
@@ -43,12 +44,12 @@ function NewHome() {
 
 
             <section className="row mx-0 latest">
-                <div class="col-6 d-flex  justify-content-center align-items-center">
+                <div class="col-md-6 d-flex  justify-titles align-items-center">
                     <div>
                         <h1 class="small-titles">Latest<br />Updates</h1>
                     </div>
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 d-flex justify-titles align-items-center">
                     <div>
                         <div class="video-container">
                             <img src={videoThumb} alt="video thumbnail for playing video"
@@ -56,8 +57,9 @@ function NewHome() {
                             <img src={playBtn} alt="play button, click to play video"
                                 class="play-btn" />
                         </div>
-                        <div className='mt-2'>
-                            <span class="video-title pt-2 mr-5">Origins: Tales of Eri</span><span className="more-txt ml-4">Play now<img src={arrowLeft} alt="arrow left" className="ml-2" /></span>
+                        <div className='mt-2 d-flex'>
+                            <div class="video-title pt-2 mr-5">Origins: Tales of Eri</div>
+                            <div className="more-txt pt-2">Play now<img src={arrowLeft} alt="arrow left" className="ml-2" /></div>
                         </div>
                         <article>
                             <p class="content-text mt-4 video-description pl-3">sit amet, consectetur adipiscing elit. Non augue
@@ -70,22 +72,8 @@ function NewHome() {
                 </div>
             </section>
 
+            <Subscribe />
 
-            <section className="row mx-0 sub-strip">
-                <div className="col-md-6 d-flex justify-content-center align-items-center">
-                    <h2 className="small-titles">Let's stay in touch</h2>
-                </div>
-                <div className="col-md-6  d-flex justify-content-center align-items-center pr-6">
-                    <div>
-                        <p className="sub-text-strip">Sign up for smiles in your inbox: tips on oral care, plastic-free<br /> living plus new products, and giveaways.</p>
-
-                        <form className="inline-form mt-4">
-                            <input type="email" placeholder="Email" class="subscriber-email mr-3 sub-text-strip" />
-                            <button class="sub-btn px-5 py-1">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
         </div>
     )
 }

@@ -19,6 +19,10 @@
   margin-top: 1.3rem;
 }
 
+.footer-list li {
+  margin-bottom: 0.5rem;
+}
+
 .scuudu-address {
   font-style: normal;
   font-weight: normal;
@@ -32,6 +36,7 @@
   border-radius: 4px;
   color: white;
   background-color: transparent;
+  width: 70%;
 }
 
 .copy-right {
@@ -41,4 +46,109 @@
   line-height: 182.5%;
   color: #ffffff;
   padding-top: 4rem;
+}
+
+.footer-listings {
+  border-bottom: 1px solid #3e3e3e;
+}
+
+.mx-6 {
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+}
+
+.mr-6 {
+  margin-right: 5rem !important;
+}
+
+.ml-6 {
+  margin-left: 5rem !important;
+}
+
+.terms-policy {
+  padding-bottom: 6rem;
+}
+
+.go-up {
+  position: relative;
+  bottom: 30%;
+  left: 95%;
+  cursor: pointer;
+}
+
+.j-end {
+  justify-content: end;
+}
+.sm-footer-logo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.sm-footer {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .mx-6 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .no-follow {
+    display: none;
+  }
+  .terms-policy {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .j-end {
+    justify-content: left !important;
+    padding-left: 2rem !important;
+  }
+  .footer-listings {
+    display: none;
+  }
+  .terms-policy {
+    display: none;
+  }
+  .big-footer {
+    display: none !important;
+  }
+  .sm-footer {
+    display: block !important;
+  }
+
+  .sm-copy {
+    font-size: 12px;
+  }
+  .sm-copy p {
+    margin-bottom: 4px !important;
+  }
+
+  .footer-pullup {
+    cursor: pointer;
+  }
+
+  .footer-pullup:active {
+    color: #ff3232;
+  }
+
+  .float-in {
+    position: absolute;
+    background-color: #131212;
+    padding: 1.2rem 1rem;
+    left: 40%;
+  }
+
+  .footer-list {
+    font-size: 13px;
+  }
+  .terms-footer {
+    font-size: 13px !important;
+  }
+
+  .border-lined {
+    border-bottom: 1px solid #3e3e3e;
+  }
 }
