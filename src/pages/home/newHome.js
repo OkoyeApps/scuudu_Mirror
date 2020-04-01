@@ -16,7 +16,7 @@ function NewHome() {
                 <div className="col-md-6 d-flex justify-titles align-items-center">
                     <div className="pr-6">
                         <h1 className="titles">Virtual Reality Experience</h1>
-                        <p className="sub-title-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis am</p>
+                        <p className="sub-title-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis am</p>
                     </div>
                 </div>
             </section>
