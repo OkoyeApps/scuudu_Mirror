@@ -49,6 +49,8 @@
 .wyrewolf {
   background-color: #131212;
   min-height: 85vh;
+  display: flex;
+  flex-direction: unset;
 }
 
 .estateAR {
@@ -103,5 +105,11 @@
     position: absolute;
     top: 20%;
     left: 46%;
+  }
+
+  .wyrewolf {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 2rem;
   }
 }

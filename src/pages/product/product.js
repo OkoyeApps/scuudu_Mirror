@@ -38,7 +38,7 @@ function Product() {
 
 
             <section className="row mx-0 px-6 wyrewolf">
-                <div className="col-md-6 d-flex align-items-center">
+                <div className="col-md-6 d-flex align-items-center ">
                     <div>
                         <h2 className="product-title mb-2">Wyrewolf</h2>
                         <p className="product-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.</p>
