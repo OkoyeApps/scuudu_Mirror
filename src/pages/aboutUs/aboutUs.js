@@ -71,7 +71,7 @@ function AboutUs() {
                                 <img src={Emeka} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Emeka Onyebuchi</h4>
-                            <h5 className="team-role">AI Expert / Engineer</h5>
+                            <h5 className="team-role">AI Expert/Engineer</h5>
                             <div className="text-center mt-3">
                                 <span><img src={linkedInB} className="mr-3" /></span>
                                 <span><img src={twitterB} /></span>
