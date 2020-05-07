@@ -56,6 +56,20 @@
   object-position: center;
 }
 
+@media (min-width: 2000px) {
+  .who p {
+    font-size: 36px;
+  }
+
+  .team-mate-name {
+    font-size: 44px;
+  }
+
+  .team-role {
+    font-size: 36px;
+  }
+}
+
 @media (max-width: 425px) {
   .empty-div {
     display: none !important;

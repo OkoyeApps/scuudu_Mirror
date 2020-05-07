@@ -104,21 +104,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .scuudu-nav {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-    padding: 0.5rem;
-    background-color: black;
-    color: #ffffff;
-  }
-  .scuudu-nav span {
-    display: inline-block;
-    padding: 0.5rem 1rem !important;
-    cursor: pointer;
-  }
-}
-
 @media (min-width: 1440px) {
   .scuudu-nav {
     display: grid;
@@ -132,7 +117,7 @@
 @media (min-width: 2000px) {
   .scuudu-nav {
     display: grid;
-    grid-template-columns: 7fr 4fr;
+    grid-template-columns: 8fr 5fr;
     padding: 0.5rem;
     background-color: black;
     color: #ffffff;
@@ -140,6 +125,22 @@
 
   .scuudu-nav span {
     font-size: 25px;
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .scuudu-nav {
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ffffff;
+  }
+  .scuudu-nav span {
+    display: inline-block;
+    padding: 0.5rem 1rem !important;
+    cursor: pointer;
   }
 }
 

@@ -108,7 +108,7 @@ function NewFooter() {
                     <img src={goUp} alt="go up" className="go-up" onClick={moveUp} />
                 </section>
 
-                <section className="text-center pb-5">
+                <section className="text-center pb-5 footer-copyright">
                     <p>© 2020 Scuudu Labs. All Rights Reserved</p>
                     <p>Scuudu, Scuudu.com and the Scuudu logo are trademarks of Scuudu Labs in Nigeria and/or other countries.</p>
                 </section>

@@ -99,6 +99,10 @@
   .terms-policy {
     font-size: 24px !important;
   }
+
+  .footer-copyright {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 768px) {
