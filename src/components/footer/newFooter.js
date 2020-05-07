@@ -163,7 +163,7 @@ function NewFooter() {
 
 
                 <section className="text-center my-4 terms-footer">
-                    <span>Terms of Services</span>
+                    <span >Terms of Services</span>
                     <span className="mx-3">Privacy Policy</span>
                     <span>Site Map</span>
                     <span>

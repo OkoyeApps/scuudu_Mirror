@@ -54,8 +54,6 @@ function NewHome() {
                         <div class="video-container">
                             <img src={videoThumb} alt="video thumbnail for playing video"
                                 class="video-thumb" />
-                            <img src={playBtn} alt="play button, click to play video"
-                                class="play-btn" />
                         </div>
                         <div className='mt-2 d-flex'>
                             <div class="video-title pt-2 mr-5">Origins: Tales of Eri</div>

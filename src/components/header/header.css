@@ -94,6 +94,55 @@
   display: block;
 }
 
+@media (min-width: 2000px) {
+  .scuudu-nav {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1024px) {
+  .scuudu-nav {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ffffff;
+  }
+  .scuudu-nav span {
+    display: inline-block;
+    padding: 0.5rem 1rem !important;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1440px) {
+  .scuudu-nav {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 2000px) {
+  .scuudu-nav {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    padding: 0.5rem;
+    background-color: black;
+    color: #ffffff;
+  }
+
+  .scuudu-nav span {
+    font-size: 25px;
+  }
+}
+
 @media (max-width: 768px) {
   .three-bars {
     display: block;

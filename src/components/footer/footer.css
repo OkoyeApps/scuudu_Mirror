@@ -87,6 +87,20 @@
   display: none !important;
 }
 
+@media (min-width: 2000px) {
+  .footer-titles {
+    font-size: 36px;
+  }
+
+  .footer-list li {
+    font-size: 24px;
+  }
+
+  .terms-policy {
+    font-size: 24px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .mx-6 {
     margin-right: 0 !important;

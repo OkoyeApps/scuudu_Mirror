@@ -67,6 +67,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
+  width: 60%;
 }
 
 .video-thumb {
@@ -243,6 +244,45 @@
     position: absolute;
     top: 16%;
     left: 38%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .titles {
+    font-size: 84px;
+  }
+
+  .sub-title-home {
+    font-size: 34px;
+  }
+
+  .small-titles {
+    font-size: 68px;
+  }
+
+  .content-text {
+    font-size: 36px;
+  }
+
+  .small-indicator {
+    font-size: 34px;
+  }
+
+  .more-txt {
+    font-size: 34px;
+  }
+
+  .video-title {
+    font-size: 44px;
+  }
+
+  .sub-text-strip {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .sub-btn {
+    font-size: 38px;
   }
 }
 
