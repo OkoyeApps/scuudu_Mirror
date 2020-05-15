@@ -9,17 +9,17 @@
   opacity: 0.5; */
   background-image: url("../../assets/images/services-bg.png");
   width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 div.main-services-content {
-  position: absolute;
-  top: 75%;
-  background-color: #1d1d1d;
-  opacity: 0.8;
+  /* position: absolute; */
+  /* top: 75%; */
+  /* background-color: #1d1d1d; */
+  /* opacity: 0.8; */
   min-height: 23vh;
   color: white;
   width: 85%;
@@ -66,6 +66,29 @@ div.main-services-content {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+.success-alert {
+  position: fixed;
+  top: 20%;
+  right: 4%;
+  z-index: 90;
+  background-color: rgb(104, 195, 104);
+  border-radius: 4px;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.fail-alert {
+  position: fixed;
+  top: 20%;
+  right: 4%;
+  z-index: 90;
+  background-color: rgb(195, 122, 104);
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
 @media (max-width: 768px) {
   .service-header {
     margin-top: 1rem;

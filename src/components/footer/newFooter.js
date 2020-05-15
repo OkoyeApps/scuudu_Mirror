@@ -108,7 +108,7 @@ function NewFooter() {
                     <img src={goUp} alt="go up" className="go-up" onClick={moveUp} />
                 </section>
 
-                <section className="text-center pb-5">
+                <section className="text-center pb-5 footer-copyright">
                     <p>© 2020 Scuudu Labs. All Rights Reserved</p>
                     <p>Scuudu, Scuudu.com and the Scuudu logo are trademarks of Scuudu Labs in Nigeria and/or other countries.</p>
                 </section>
@@ -123,8 +123,8 @@ function NewFooter() {
                     <div className="text-center">
                         <article>
                             <img src={facebook} alt="facebook" />
-                            <img src={twitter} alt="twitter" class="mx-2" />
-                            <img src={youtube} alt="youtube" class="mr-2" />
+                            <img src={twitter} alt="twitter" className="mx-2" />
+                            <img src={youtube} alt="youtube" className="mr-2" />
                             <img src={insta} alt="instagram" />
                         </article>
                     </div>
@@ -163,7 +163,7 @@ function NewFooter() {
 
 
                 <section className="text-center my-4 terms-footer">
-                    <span>Terms of Services</span>
+                    <span >Terms of Services</span>
                     <span className="mx-3">Privacy Policy</span>
                     <span>Site Map</span>
                     <span>

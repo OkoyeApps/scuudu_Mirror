@@ -22,12 +22,18 @@ function Product() {
 
             <section className="row mx-0 px-6 pb-5 eri">
                 <div className="col-md-6 d-flex justify-content-center">
-                    <img src={Featured} className="feature-img" />
+                    <img src={Featured} className="feature-img" alt="product 1" />
                 </div>
                 <div className="col-md-6">
                     <div>
                         <h2 className="product-title mb-2">Origins: Tales of Eri</h2>
-                        <p className="product-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.</p>
+                        <p className="product-txt">Through an unprecedented virtual experience, Tales of Eri takes you back to the origin by
+                        immersing you into the traditional Nigerian environment. Eri and his wife are set to complete a
+                        task given to them by their Chi. You will get to learn a lot about the Nigerian culture while
+                        having fun. Characters in this game were created using 3D Design: Autodesk Maya. Game engine: Unity. Sound
+                        design: Adobe Audition. Graphics: Adobe Photoshop.
+
+</p>
 
                         <img src={Oculus} alt="oculus store" className="store-logo" />
                     </div>
@@ -41,7 +47,15 @@ function Product() {
                 <div className="col-md-6 d-flex align-items-center ">
                     <div>
                         <h2 className="product-title mb-2">Wyrewolf</h2>
-                        <p className="product-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.</p>
+                        <p className="product-txt">Just like a security dog, WyreWolf serves as an alert system that triggers off at the sight of any
+                        suspicious movement. It is a fraud detection and prevention system that makes use of artificial
+                        Intelligence and Machine Learning to flag irregular transactions. The system is of utmost need
+                        given the continuous rise in financial and wire frauds in Nigeria and beyond. WyreWolf is built
+                        to become every user’s security alert. Annually, Nigerian banks and individuals loose over N15
+                        billion to frauds related to unauthorized withdrawals from ATM and Bank Apps. This is a big
+                        challenge and there is no comprehensive solution available yet to address this issue.
+
+</p>
                         <div>
                             <div className="more-txt">Learn more<img src={arrowLeft} alt="arrow left" className="ml-2" /></div>
                         </div>
@@ -49,14 +63,14 @@ function Product() {
                 </div>
 
                 <div className="col-md-6 d-flex align-items-center">
-                    <img src={wyrewolf} className="w-img" />
+                    <img src={wyrewolf} className="w-img" alt="wyrewolf platform" />
                 </div>
             </section>
 
 
             <section className="row mx-0 estateAR px-6">
                 <div className="col-md-6 d-flex align-items-center">
-                    <img src={EstateAR} className="w-img" />
+                    <img src={EstateAR} className="w-img" alt="EstateAR representation" />
                 </div>
                 <div className="col-md-6 d-flex align-items-center">
                     <div>

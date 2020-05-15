@@ -47,8 +47,8 @@ function AboutUs() {
                             <h4 className="team-mate-name">Franklin Osondu</h4>
                             <h5 className="team-role">Lead, Research & Development</h5>
                             <div className="text-center mt-3">
-                                <span><img src={linkedInB} className="mr-3" /></span>
-                                <span><img src={twitterB} /></span>
+                                <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
+                                <span><img src={twitterB} alt="twitter link" /></span>
                             </div>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ function AboutUs() {
                             <h4 className="team-mate-name">Kaosicho Dim</h4>
                             <h5 className="team-role">Visual Designer</h5>
                             <div className="text-center mt-3">
-                                <span><img src={linkedInB} className="mr-3" /></span>
-                                <span><img src={twitterB} /></span>
+                                <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
+                                <span><img src={twitterB} alt="twitter link" /></span>
                             </div>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ function AboutUs() {
                             <h4 className="team-mate-name">Emeka Onyebuchi</h4>
                             <h5 className="team-role">AI Expert/Engineer</h5>
                             <div className="text-center mt-3">
-                                <span><img src={linkedInB} className="mr-3" /></span>
-                                <span><img src={twitterB} /></span>
+                                <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
+                                <span><img src={twitterB} alt="twitter link" /></span>
                             </div>
                         </div>
                     </div>
@@ -87,8 +87,8 @@ function AboutUs() {
                             <h4 className="team-mate-name">Chinedu Achimalo</h4>
                             <h5 className="team-role">Developer</h5>
                             <div className="text-center mt-3">
-                                <span><img src={linkedInB} className="mr-3" /></span>
-                                <span><img src={twitterB} /></span>
+                                <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
+                                <span><img src={twitterB} alt="twitter link" /></span>
                             </div>
                         </div>
                     </div>
@@ -101,8 +101,8 @@ function AboutUs() {
                             <h4 className="team-mate-name">Ifeanyi Dim</h4>
                             <h5 className="team-role">3D Artist</h5>
                             <div className="text-center mt-3">
-                                <span><img src={linkedInB} className="mr-3" /></span>
-                                <span><img src={twitterB} /></span>
+                                <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
+                                <span><img src={twitterB} alt="twitter link" /></span>
                             </div>
                         </div>
                     </div>
@@ -115,8 +115,8 @@ function AboutUs() {
                             <h4 className="team-mate-name">Anthony Chiaka</h4>
                             <h5 className="team-role">Visual Designer</h5>
                             <div className="text-center mt-3">
-                                <span><img src={linkedInB} className="mr-3" /></span>
-                                <span><img src={twitterB} /></span>
+                                <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
+                                <span><img src={twitterB} alt="twitter link" /></span>
                             </div>
                         </div>
                     </div>

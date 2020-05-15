@@ -100,6 +100,40 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .product-title {
+    font-size: 70px;
+    line-height: 79px;
+  }
+
+  .product-txt {
+    font-size: 36px;
+  }
+
+  .product-sm-title {
+    font-size: 50px;
+  }
+
+  .main-services-content h3 {
+    font-size: 50px;
+  }
+
+  .service-titles {
+    font-size: 60px !important;
+  }
+  .service-txt {
+    font-size: 36px !important;
+  }
+
+  .service-input {
+    font-size: 3.3rem;
+  }
+
+  .service-btn {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 425px) {
   .play-btn-lg {
     position: absolute;
