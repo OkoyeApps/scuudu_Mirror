@@ -123,8 +123,8 @@ function NewFooter() {
                     <div className="text-center">
                         <article>
                             <img src={facebook} alt="facebook" />
-                            <img src={twitter} alt="twitter" class="mx-2" />
-                            <img src={youtube} alt="youtube" class="mr-2" />
+                            <img src={twitter} alt="twitter" className="mx-2" />
+                            <img src={youtube} alt="youtube" className="mr-2" />
                             <img src={insta} alt="instagram" />
                         </article>
                     </div>

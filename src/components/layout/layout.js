@@ -11,7 +11,7 @@ function Layout(props) {
                 <Header />
             </div>
             <div>
-                <div className="scroll"><img src={scrollDown} /></div>
+                <div className="scroll"><img src={scrollDown} alt="scroll indicator" /></div>
                 {props.children}
             </div>
             <div>
