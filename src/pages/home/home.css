@@ -229,6 +229,9 @@
 }
 
 @media (max-width: 425px) {
+  .small-titles {
+    font-size: 30px;
+  }
   .sub-strip {
     padding-bottom: 1rem;
     padding-top: 1rem;
