@@ -27,7 +27,6 @@ div.main-services-content {
 
 .main-services-content h3 {
   color: white;
-  text-align: center;
 }
 
 .service-titles {
@@ -65,6 +64,11 @@ div.main-services-content {
 .service-header {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
 }
 
 .success-alert {
@@ -89,11 +93,28 @@ div.main-services-content {
   padding: 0.5rem 1rem;
 }
 
+.got-awesome {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  margin-top: -70px;
+}
+
+.got-awesome-sm {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .got-awesome {
+    font-size: 30px;
+    line-height: 40px;
+  }
   .service-header {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 24px;
+    font-size: 30px;
   }
   .space-h {
     height: 265vh;
@@ -109,6 +130,12 @@ div.main-services-content {
 }
 
 @media (max-width: 425px) {
+  .got-awesome {
+    display: none;
+  }
+  .got-awesome-sm {
+    display: block;
+  }
   .main-services-content {
     position: static !important;
     margin-top: 2rem;
@@ -118,6 +145,12 @@ div.main-services-content {
   }
 
   .our-services {
+    display: none;
     background-image: none;
+  }
+  .service-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 24px;
   }
 }

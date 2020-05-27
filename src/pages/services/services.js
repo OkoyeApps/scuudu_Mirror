@@ -156,7 +156,7 @@ function Services(props) {
                             <p className="service-txt pt-4">
                                 AR offers the chance to overlay information, images, or other content onto a customer&#39;s view of
                                 the world. There is a lot that could be done with AR today, from creating 3D manufacturing
-                                designs to allowing customers view and experience products through 3D models.
+                                designs to allowing customers view and experience products through 3D models.<br /><br />
 
                                 Augmented reality is now playing important roles in customer service worldwide and this trend will continue
                                 increasingly. The possibilities seem to be limitless and we are your ticket to exploring all that.
@@ -164,9 +164,30 @@ function Services(props) {
                                     </p>
                         </div>
 
+                        <div className="col-md-6 mb-4">
+                            <div className="d-flex align-items-center pl-3"
+                                style={{
+                                    backgroundImage: `url(${AR})`,
+                                    backgroundPosition: "center",
+                                    backgroundSize: "cover",
+                                    backgroundRepeat: "no-repeat",
+                                    minHeight: "40vh"
+                                }}
+                            >
+                                <h4 className="service-titles">3D Modeling<br />
+                                & Rendering<br />
+(Product Design)</h4>
+                            </div>
+                            <p className="service-txt pt-4">
+                               From product prototype design to interior decor design, we at Scuudu offers the chance to view your design in 360 view as we export high fidelity images/videos of your product. We also offer product reveal for cases of advertisment and presentation.
+                                    </p>
+                        </div>
+                        <div className="col-md-6 d-flex align-items-center">
+                            <h1 className="got-awesome">Got an<br /> awesome<br /> project for us?</h1>
+                        </div>
 
                         <div className="col-md-6 mb-4">
-                            <h3 style={{ textAlign: "left" }}>Got an awesome project for us?</h3>
+                            <h3 style={{ textAlign: "left" }} className="got-awesome-sm">Got an awesome project for us?</h3>
                             <form>
                                 <input type="text" className="form-control mb-3 service-input" id="name" placeholder="Name" onChange={handleChange} />
                                 <input type="email" className="form-control mb-3 service-input" id="email" placeholder="Email" onChange={handleChange} />

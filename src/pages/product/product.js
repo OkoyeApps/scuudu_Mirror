@@ -18,7 +18,12 @@ function Product() {
                 <img src={playBtn} alt="play button, click to play video"
                     class="play-btn-lg" />
             </div>
-            <h4 className="product-sm-title my-5">Featured Products</h4>
+
+            <div className="row px-6 mx-0">
+                <div className="col-12">
+                    <h4 className="product-sm-title my-5">Featured Products</h4>
+                </div>
+            </div>
 
             <section className="row mx-0 px-6 pb-5 eri">
                 <div className="col-md-6 d-flex justify-content-center">
@@ -44,12 +49,12 @@ function Product() {
 
 
             <section className="row mx-0 px-6 wyrewolf">
-                <div className="col-md-6 d-flex align-items-center ">
+                <div className="col-md-6 d-flex align-items-center py-4">
                     <div>
                         <h2 className="product-title mb-2">Wyrewolf</h2>
                         <p className="product-txt">Just like a security dog, WyreWolf serves as an alert system that triggers off at the sight of any
                         suspicious movement. It is a fraud detection and prevention system that makes use of artificial
-                        Intelligence and Machine Learning to flag irregular transactions. The system is of utmost need
+                        Intelligence and Machine Learning to flag irregular transactions.<br /> <br />The system is of utmost need
                         given the continuous rise in financial and wire frauds in Nigeria and beyond. WyreWolf is built
                         to become every user’s security alert. Annually, Nigerian banks and individuals loose over N15
                         billion to frauds related to unauthorized withdrawals from ATM and Bank Apps. This is a big
@@ -75,7 +80,10 @@ function Product() {
                 <div className="col-md-6 d-flex align-items-center">
                     <div>
                         <h2 className="product-title mb-2">EstateAR</h2>
-                        <p className="product-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.</p>
+                        <p className="product-txt">EstateAR 3D is a novel solution for Architects and Estate Managers. Through this Augmented
+                        Reality App, Architects and Estate Managers can take customers on a virtual tour of building and
+                        estate designs. The App lets users to cast a 3D view of designs on any flat surface and allows the
+user to view the design from all perspectives.</p>
                         <img src={PlayStore} alt="google play store" className="store-logo" />
                     </div>
                 </div>

@@ -9,7 +9,8 @@ function SubscribeStrip() {
                 </div>
                 <div className="col-md-6  d-flex justify-content-center align-items-center pr-6">
                     <div>
-                        <p className="sub-text-strip">Sign up for smiles in your inbox: tips on oral care, plastic-free<br /> living plus new products, and giveaways.</p>
+                        <p className="sub-text-strip">By subscribing to our newsletter, you will join the list of those<br /> who are first to get the latest
+updates about our intriguing<br /> activities.</p>
 
                         <form className="inline-form mt-4">
                             <input type="email" placeholder="Email" class="subscriber-email mr-3 sub-text-strip" />

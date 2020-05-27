@@ -52,8 +52,24 @@
 .team-member-img {
   width: 250px;
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+}
+
+@media (max-width: 768px) {
+  .team-member-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+  }
+  .team-mate-name {
+    font-size: 19px;
+  }
+
+  .team-role {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 2000px) {
@@ -97,7 +113,7 @@
   .team-member-img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
   }
 }

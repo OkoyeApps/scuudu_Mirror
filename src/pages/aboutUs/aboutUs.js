@@ -25,14 +25,14 @@ function AboutUs() {
             </section>
 
             <section className="who pt-4">
-                <h3 className="text-center product-sm-title">Who We Are</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque..</p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque..
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non augue metus, malesuada habitasse. Commodo non turpis purus nunc. Nisl sed et, pharetra, bibendum convallis amet lectus. Cursus nunc, aliquet placerat turpis ornare pellentesque..
-                </p>
+                <h3 className="product-sm-title">Who We Are</h3>
+                <p>Scuudu is a startup growing from Genesys Tech Hub’s Research and Development Lab. The
+                startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good
+                through avant garde technologies. So far, Scuudu has worked on solutions leveraging Artificial
+Intelligence, Machine Learning, Augmented Reality and Virtual Reality.</p>
+
+                <p>Scuudu’s team is made up of the best collection of talent. A perfect blend of Engineers,
+designers, software and business developers who have acquired varying experience while</p>
             </section>
 
 
