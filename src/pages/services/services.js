@@ -179,13 +179,7 @@ function Services(props) {
 (Product Design)</h4>
                             </div>
                             <p className="service-txt pt-4">
-                                AR offers the chance to overlay information, images, or other content onto a customer&#39;s view of
-                                the world. There is a lot that could be done with AR today, from creating 3D manufacturing
-                                designs to allowing customers view and experience products through 3D models.<br /><br />
-
-                                Augmented reality is now playing important roles in customer service worldwide and this trend will continue
-                                increasingly. The possibilities seem to be limitless and we are your ticket to exploring all that.
-
+                               From product prototype design to interior decor design, we at Scuudu offers the chance to view your design in 360 view as we export high fidelity images/videos of your product. We also offer product reveal for cases of advertisment and presentation.
                                     </p>
                         </div>
                         <div className="col-md-6 d-flex align-items-center">
