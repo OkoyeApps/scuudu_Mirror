@@ -1,10 +1,11 @@
 import React from 'react'
 import './aboutUs.css'
-import Franky from '../../assets/images/Franky 1.png'
-import Kosisy from '../../assets/images/Kaosy 1.png'
+import Franky from '../../assets/images/franky 1.png'
+import Kosisy from '../../assets/images/kaosy 1.png'
 import Emeka from '../../assets/images/Emeka 1.png'
 import Chinedu from '../../assets/images/Chinedu 1.png'
 import Tony from '../../assets/images/Tony.png'
+import Josh from '../../assets/images/josh.png'
 import twitterB from '../../assets/images/blue-twitter.svg'
 import linkedInB from '../../assets/images/blue-linkedIn.svg'
 import Subscribe from '../../components/subcribeStrip/subscribeStrip'
@@ -96,10 +97,10 @@ designers, software and business developers who have acquired varying experience
                     <div className="col-md-4 mb-5">
                         <div>
                             <div className="text-center">
-                                <img src={Kosisy} alt="team member" className="team-member-img" />
+                                <img src={Josh} alt="team member" className="team-member-img" />
                             </div>
-                            <h4 className="team-mate-name">Ifeanyi Dim</h4>
-                            <h5 className="team-role">3D Artist</h5>
+                            <h4 className="team-mate-name">Joshua Nwankwo</h4>
+                            <h5 className="team-role">Machine Learning Intern</h5>
                             <div className="text-center mt-3">
                                 <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
                                 <span><img src={twitterB} alt="twitter link" /></span>
