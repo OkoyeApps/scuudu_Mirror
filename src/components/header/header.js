@@ -22,7 +22,7 @@ function Header(props) {
     }, [])
     return (
         <div>
-            <nav class="scuudu-nav px-3">
+            <nav class="scuudu-nav scuuduNav px-3">
                 <div class="logo mt-2" id="scuudu-logo">
                     <img src={props.location.pathname === '/' ? Logo : LogoWhite} alt="scuudu-logo" onClick={() => handleLink('/')} />
                 </div>
