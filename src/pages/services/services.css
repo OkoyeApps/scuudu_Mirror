@@ -7,6 +7,12 @@
   min-height: 80vh;
   width: 80%;
   opacity: 0.5; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 70px;
+  padding: 0rem 6rem;
   background-image: url("../../assets/images/services-bg.png");
   width: 100%;
   min-height: 70vh;
@@ -135,6 +141,8 @@ div.main-services-content {
   }
   .got-awesome-sm {
     display: block;
+    font-family: Montserrat;
+    font-style: normal;
   }
   .main-services-content {
     position: static !important;

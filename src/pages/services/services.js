@@ -54,7 +54,12 @@ function Services(props) {
             {show ? <div className={alertMessenger.type ? "success-alert" : "fail-alert"}>
                 <p className="mb-0">{alertMessenger.message}</p>
             </div> : <></>}
-            <div className="our-services">
+            <div className="our-services d-flex align-items-center">
+                <article>
+                    <p className='mb-0'>Think.</p>
+                    <p className='mb-0'>Design.</p>
+                    <p className='mb-0'>Create.</p>
+                </article>
             </div>
             <div className="d-flex justify-content-center">
                 <div className="main-services-content">
@@ -179,7 +184,7 @@ function Services(props) {
 (Product Design)</h4>
                             </div>
                             <p className="service-txt pt-4">
-                               From product prototype design to interior decor design, we at Scuudu offers the chance to view your design in 360 view as we export high fidelity images/videos of your product. We also offer product reveal for cases of advertisment and presentation.
+                                From product prototype design to interior decor design, we at Scuudu offers the chance to view your design in 360 view as we export high fidelity images/videos of your product. We also offer product reveal for cases of advertisment and presentation.
                                     </p>
                         </div>
                         <div className="col-md-6 d-flex align-items-center">
@@ -192,7 +197,7 @@ function Services(props) {
                                 <input type="text" className="form-control mb-3 service-input" id="name" placeholder="Name" onChange={handleChange} />
                                 <input type="email" className="form-control mb-3 service-input" id="email" placeholder="Email" onChange={handleChange} />
                                 <input type="text" className="form-control mb-3 service-input" id="phonenumber" placeholder="Phone" onChange={handleChange} />
-                                <textarea className="form-control mb-3 service-input" rows="6" placeholder="message" id="message" onChange={handleChange} />
+                                <textarea className="form-control mb-3 service-input" rows="6" placeholder="message" id="Message" onChange={handleChange} />
                                 <button className="btn btn-danger service-btn" onClick={handleSubmit}>Submit</button>
                             </form>
                         </div>
