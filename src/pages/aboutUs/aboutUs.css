@@ -55,7 +55,10 @@
   object-fit: contain;
   object-position: center;
 }
-
+.cover {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
 @media (max-width: 768px) {
   .team-member-img {
     width: 200px;

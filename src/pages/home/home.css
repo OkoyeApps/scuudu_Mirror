@@ -81,7 +81,6 @@
 }
 
 .video-description {
-  width: 85%;
   /* height: 10vh; */
   border-left: 1px solid #ff3232;
 }
@@ -124,16 +123,16 @@
 }
 
 .pr-6 {
-  padding-right: 5rem !important;
+  padding-right: 10.5rem !important;
 }
 
 .pl-6 {
-  padding-left: 5rem !important;
+  padding-left: 10.5rem !important;
 }
 
 .px-6 {
-  padding-left: 5rem !important;
-  padding-right: 5rem !important;
+  padding-left: 10.5rem !important;
+  padding-right: 10.5rem !important;
 }
 
 .more-txt {
@@ -225,6 +224,10 @@
 
   .sub-title-home {
     font-size: 14px;
+  }
+  .sub-btn {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
   }
 }
 
