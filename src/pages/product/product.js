@@ -26,21 +26,25 @@ function Product() {
             </div>
 
             <section className="row mx-0 px-6 pb-5 eri">
+                <div className="col-md-6"></div>
+                <div className="col-md-6 d-flex align-items-center">
+                    <h2 className="product-title">Origins: Tales of Eri</h2>
+                </div>
                 <div className="col-md-6 d-flex justify-content-center">
                     <img src={Featured} className="feature-img" alt="product 1" />
                 </div>
                 <div className="col-md-6">
                     <div>
-                        <h2 className="product-title mb-2">Origins: Tales of Eri</h2>
                         <p className="product-txt">Through an unprecedented virtual experience, Tales of Eri takes you back to the origin by
                         immersing you into the traditional Nigerian environment. Eri and his wife are set to complete a
                         task given to them by their Chi. You will get to learn a lot about the Nigerian culture while
                         having fun. Characters in this game were created using 3D Design: Autodesk Maya. Game engine: Unity. Sound
                         design: Adobe Audition. Graphics: Adobe Photoshop.
+                        <div>
+                                <img src={Oculus} alt="oculus store" className="store-logo" />
+                            </div>
+                        </p>
 
-</p>
-
-                        <img src={Oculus} alt="oculus store" className="store-logo" />
                     </div>
 
                 </div>
@@ -72,22 +76,31 @@ function Product() {
                 </div>
             </section>
 
-
-            <section className="row mx-0 estateAR px-6">
-                <div className="col-md-6 d-flex align-items-center">
-                    <img src={EstateAR} className="w-img" alt="EstateAR representation" />
-                </div>
-                <div className="col-md-6 d-flex align-items-center">
-                    <div>
+            <div className="d-flex align-items-center estateAR">
+                <section className="row mx-0 px-6">
+                    <div className="col-md-6"></div>
+                    <div className="col-md-6 d-flex align-items-center">
                         <h2 className="product-title mb-2">EstateAR</h2>
-                        <p className="product-txt">EstateAR 3D is a novel solution for Architects and Estate Managers. Through this Augmented
-                        Reality App, Architects and Estate Managers can take customers on a virtual tour of building and
-                        estate designs. The App lets users to cast a 3D view of designs on any flat surface and allows the
-user to view the design from all perspectives.</p>
-                        <img src={PlayStore} alt="google play store" className="store-logo" />
                     </div>
-                </div>
-            </section>
+
+                    <div className="col-md-6">
+                        <img src={EstateAR} className="w-img AR-img" alt="EstateAR representation" />
+                    </div>
+                    <div className="col-md-6">
+                        <div>
+                            <p className="product-txt">EstateAR 3D is a novel solution for Architects and Estate Managers. Through this Augmented
+                            Reality App, Architects and Estate Managers can take customers on a virtual tour of building and
+                            estate designs. The App lets users to cast a 3D view of designs on any flat surface and allows the
+                            user to view the design from all perspectives.
+                        <div>
+                                    <img src={PlayStore} alt="google play store" className="store-logo" />
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
             <Subscribe />
         </div>
 

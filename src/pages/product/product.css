@@ -61,10 +61,16 @@
 }
 
 .store-logo {
-  margin-top: 3rem;
+  margin-top: 1.8rem;
 }
 .w-img {
   width: 100%;
+}
+
+.AR-img {
+  height: 50vh;
+  object-fit: contain;
+  object-position: center;
 }
 @media (max-width: 768px) {
   .play-btn-lg {

@@ -55,12 +55,17 @@ function Services(props) {
                 <p className="mb-0">{alertMessenger.message}</p>
             </div> : <></>}
             <div className="our-services">
+                <article>
+                    <p className='mb-0'>Think.</p>
+                    <p className='mb-0'>Design.</p>
+                    <p className='mb-0'>Create.</p>
+                </article>
             </div>
             <div className="d-flex justify-content-center">
-                <div className="main-services-content">
+                <div className="main-services-content wrap">
                     <h3 className="service-header">Our Services</h3>
                     <section className="row mx-0">
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-r">
                             <div className="d-flex align-items-center pl-3"
                                 style={{
                                     backgroundImage: `url(${AI})`,
@@ -81,7 +86,7 @@ function Services(props) {
                                     </p>
                         </div>
 
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-l">
                             <div className="d-flex align-items-center pl-3"
                                 style={{
                                     backgroundImage: `url(${ES})`,
@@ -102,7 +107,7 @@ function Services(props) {
                         </div>
 
 
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-r">
                             <div className="d-flex align-items-center pl-3"
                                 style={{
                                     backgroundImage: `url(${VR})`,
@@ -122,7 +127,7 @@ function Services(props) {
                                     </p>
                         </div>
 
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-l">
                             <div className="d-flex align-items-center pl-3"
                                 style={{
                                     backgroundImage: `url(${VFX})`,
@@ -134,14 +139,13 @@ function Services(props) {
                             >
                                 <h4 className="service-titles">Visual<br /> Effects (VFX)</h4>
                             </div>
-                            <p className="service-txt pt-4">
+                            <p className="service-txt pt-4 gap-r">
                                 Making use of actual footage and manipulated imagery, we create those impossible moves you thought could never appear in films. Our experts use the latest technologies in VFX to deliver
                                 mind blowing results.
-
                                     </p>
                         </div>
 
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-r">
                             <div className="d-flex align-items-center pl-3"
                                 style={{
                                     backgroundImage: `url(${AR})`,
@@ -164,7 +168,7 @@ function Services(props) {
                                     </p>
                         </div>
 
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-l">
                             <div className="d-flex align-items-center pl-3"
                                 style={{
                                     backgroundImage: `url(${AR})`,
@@ -179,30 +183,26 @@ function Services(props) {
 (Product Design)</h4>
                             </div>
                             <p className="service-txt pt-4">
-                               From product prototype design to interior decor design, we at Scuudu offers the chance to view your design in 360 view as we export high fidelity images/videos of your product. We also offer product reveal for cases of advertisment and presentation.
+                                From product prototype design to interior decor design, we at Scuudu offers the chance to view your design in 360 view as we export high fidelity images/videos of your product. We also offer product reveal for cases of advertisment and presentation.
                                     </p>
                         </div>
-                        <div className="col-md-6 d-flex align-items-center">
+                        <div className="col-md-6 d-flex align-items-center gap-l">
                             <h1 className="got-awesome">Got an<br /> awesome<br /> project for us?</h1>
                         </div>
 
-                        <div className="col-md-6 mb-4">
+                        <div className="col-md-6 mb-4 gap-r">
                             <h3 style={{ textAlign: "left" }} className="got-awesome-sm">Got an awesome project for us?</h3>
                             <form>
                                 <input type="text" className="form-control mb-3 service-input" id="name" placeholder="Name" onChange={handleChange} />
                                 <input type="email" className="form-control mb-3 service-input" id="email" placeholder="Email" onChange={handleChange} />
                                 <input type="text" className="form-control mb-3 service-input" id="phonenumber" placeholder="Phone" onChange={handleChange} />
-                                <textarea className="form-control mb-3 service-input" rows="6" placeholder="message" id="message" onChange={handleChange} />
+                                <textarea className="form-control mb-3 service-input" rows="6" placeholder="Message" id="message" onChange={handleChange} />
                                 <button className="btn btn-danger service-btn" onClick={handleSubmit}>Submit</button>
                             </form>
                         </div>
                     </section>
                 </div>
             </div>
-
-
-
-            {/* <section className="space-h"></section> */}
             <Subscribe />
 
         </div>

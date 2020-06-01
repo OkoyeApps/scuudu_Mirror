@@ -3,10 +3,14 @@
 }
 
 .our-services {
-  /* background: #1d1d1d;
-  min-height: 80vh;
-  width: 80%;
-  opacity: 0.5; */
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 70px;
+  padding: 0rem 11rem;
   background-image: url("../../assets/images/services-bg.png");
   width: 100%;
   min-height: 70vh;
@@ -17,12 +21,17 @@
 
 div.main-services-content {
   /* position: absolute; */
-  /* top: 75%; */
+  /* top: 75%; *7
   /* background-color: #1d1d1d; */
   /* opacity: 0.8; */
   min-height: 23vh;
   color: white;
   width: 85%;
+}
+
+.wrap {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .main-services-content h3 {
@@ -58,9 +67,7 @@ div.main-services-content {
   border-radius: 2px;
   border: none;
 }
-.space-h {
-  height: 230vh;
-}
+
 .service-header {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -106,7 +113,21 @@ div.main-services-content {
   display: none;
 }
 
+.gap-r {
+  padding-right: 2rem;
+}
+.gap-l {
+  padding-left: 2rem;
+}
 @media (max-width: 768px) {
+  .our-services {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0 4rem;
+  }
+  .wrap {
+    padding: 0;
+  }
   .got-awesome {
     font-size: 30px;
     line-height: 40px;
@@ -115,9 +136,6 @@ div.main-services-content {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 30px;
-  }
-  .space-h {
-    height: 265vh;
   }
 
   .service-txt {
@@ -130,18 +148,24 @@ div.main-services-content {
 }
 
 @media (max-width: 425px) {
+  .gap-r {
+    padding-right: 0rem;
+  }
+  .gap-l {
+    padding-left: 0rem;
+  }
   .got-awesome {
     display: none;
   }
   .got-awesome-sm {
     display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
   }
   .main-services-content {
     position: static !important;
     margin-top: 2rem;
-  }
-  .space-h {
-    height: 5vh;
   }
 
   .our-services {

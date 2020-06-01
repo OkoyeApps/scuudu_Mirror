@@ -12,7 +12,7 @@ function Home(props) {
                 <div className="col-md-6 col-sm-1 empty-div"></div>
                 <div className="col-md-6 d-flex justify-titles align-items-center">
                     <div className="pr-6">
-                        <h1 className="titles">Virtual Reality Experience</h1>
+                        <h1 className="titles mb-4">Virtual Reality Experience</h1>
                         <p className="sub-title-home pt-1">
                             VR is already changing how enterprises offer their services and
                             interact with customers. In the Scuudu Labs, we create VR
@@ -39,7 +39,7 @@ function Home(props) {
                             leveraging Artificial Intelligence, Machine Learning, Augmented
                             Reality and Virtual Reality.
             </p>
-                        <div className="d-flex justify-content-end">
+                        <div className="d-flex justify-content-end px-2">
                             <div
                                 className="more-txt"
                                 onClick={() => {
@@ -54,7 +54,7 @@ function Home(props) {
                 </div>
             </section>
 
-            <section className="row mx-0 latest">
+            <section className="row mx-0 latest px-6">
                 <div class="col-md-6 d-flex  justify-titles align-items-center">
                     <div>
                         <h1 class="small-titles">
@@ -75,10 +75,10 @@ function Home(props) {
                         </div>
                         <div className="mt-2 d-flex">
                             <div class="video-title pt-2 mr-5">Origins: Tales of Eri</div>
-                            <div className="more-txt pt-2">
+                            {/* <div className="more-txt pt-2">
                                 Play now
                 <img src={arrowLeft} alt="arrow left" className="ml-2" />
-                            </div>
+                            </div> */}
                         </div>
                         <article>
                             <p class="content-text mt-4 video-description pl-3">
@@ -89,6 +89,15 @@ function Home(props) {
                                 Characters in this game were created using Maya. Game engine:
                                 Unity. Sound design: Adobe audition. Graphics: Photoshop.
               </p>
+                            <div className="d-flex justify-content-end px-2">
+                                <div
+                                    className="more-txt"
+
+                                >
+                                    Play
+                <img src={arrowLeft} alt="arrow left" className="ml-2" />
+                                </div>
+                            </div>
                         </article>
                     </div>
                 </div>

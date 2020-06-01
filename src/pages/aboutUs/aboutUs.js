@@ -25,7 +25,7 @@ function AboutUs() {
                 </div>
             </section>
 
-            <section className="who pt-4">
+            <section className="who pt-4 cover">
                 <h3 className="product-sm-title">Who We Are</h3>
                 <p>Scuudu is a startup growing from Genesys Tech Hub’s Research and Development Lab. The
                 startup which kicked off operations in 2019, dreams to change the Nigerian tech story for good
@@ -100,7 +100,7 @@ designers, software and business developers who have acquired varying experience
                                 <img src={Josh} alt="team member" className="team-member-img" />
                             </div>
                             <h4 className="team-mate-name">Joshua Nwankwo</h4>
-                            <h5 className="team-role">Machine Learning Intern</h5>
+                            <h5 className="team-role">Machine Learning Engineer</h5>
                             <div className="text-center mt-3">
                                 <span><img src={linkedInB} className="mr-3" alt="linkedIn Link" /></span>
                                 <span><img src={twitterB} alt="twitter link" /></span>
